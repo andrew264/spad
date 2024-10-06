@@ -1,0 +1,2 @@
+spotipy
+yt-dlp
