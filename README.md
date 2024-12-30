@@ -23,19 +23,19 @@
 Run the script from the command line with the following arguments:
 
 ```
-python main.py --client-id YOUR_SPOTIFY_CLIENT_ID --client-secret YOUR_SPOTIFY_CLIENT_SECRET --playlist-url SPOTIFY_PLAYLIST_URL --output-dir OUTPUT_DIRECTORY
+python main.py --client-id YOUR_SPOTIFY_CLIENT_ID --client-secret YOUR_SPOTIFY_CLIENT_SECRET --url SPOTIFY_URL --output-dir OUTPUT_DIRECTORY
 ```
 
 Replace the following:
 - `YOUR_SPOTIFY_CLIENT_ID`: Your Spotify API Client ID
 - `YOUR_SPOTIFY_CLIENT_SECRET`: Your Spotify API Client Secret
-- `SPOTIFY_PLAYLIST_URL`: The full URL of the Spotify playlist you want to download
+- `SPOTIFY_URL`: The full URL of the Spotify playlist/album you want to download
 - `OUTPUT_DIRECTORY`: The directory where you want to save the downloaded MP3 files (optional, defaults to "downloaded_audio")
 
 Example:
 
 ```
-python main.py --client-id abc123 --client-secret xyz789 --playlist-url https://open.spotify.com/playlist/37i9dQZF1EpmQ4QVp3CQgu?si=61a2c98671194d3f --output-dir ~/Music/Downloads
+python main.py --client-id abc123 --client-secret xyz789 --url https://open.spotify.com/playlist/37i9dQZF1EpmQ4QVp3CQgu?si=61a2c98671194d3f --output-dir ~/Music/Downloads
 ```
 
 ## Note
